@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.write("# Welcome👨🏽")
 
-name=st.sidebar.text_input('Enter your name')
+name=st.text_input('Enter your name')
 
 
 
@@ -24,10 +24,6 @@ if name:
 
         '''
     )
-else:
-    st.write("## Enter your name to continue")
-
-
 st.markdown(
         """
         <style>
